@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    background-color: rgba(57, 57, 214, 0.596);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 10%;
+    height: 100vh;
+}
+.Voltar {
+    margin: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: rgb(39, 41, 173);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(39, 41, 173, 0.868);
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.Voltar:hover {
+    transform: scale(1.05);
+    background-color: rgb(9, 8, 82);
+    color: rgba(255, 255, 255, 0.612);
+}
+.meio {
+    display: flex;
+    background-color: rgba(57, 75, 214, 0.366);
+    box-shadow: 5px 5px 15px rgba(57, 91, 214, 0.366);
+    border-left: 5px solid rgba(57, 70, 214, 0.3);
+    border-right: 5px solid rgba(57, 70, 214, 0.3);
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 80%;
+    height: 950vh;
+}
+.meio h1 {
+    font-size: 54px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.meio h2 {
+    font-size: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.meio p {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.jalapa {
+    width: 100%;
+    height: 130px;
+    background-color: rgba(57, 70, 214, 0.366);
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.366);
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px rgba(21, 33, 169, 0.462);
+}
+.divisa {
+    border-bottom: 3px solid #170176;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+}
+.imagem {
+    background-color: rgba(57, 67, 214, 0.366);
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(57, 78, 214, 0.366);
+}
+.imagem1 {
+    background-color: rgba(57, 70, 214, 0.366);
+    justify-content: space-around;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(57, 60, 214, 0.366);
+}
+.imagem1 img {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.366);
+}
+
+.imagem img {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    gap: 5px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    transition: transform 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.366);
+}
+.imagem img:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 30px rgba(57, 60, 214, 0.566);
+    cursor: pointer;
+}
+.img-destaque {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.rodape {
+    background-color: rgb(4, 13, 108);
+    height: 300px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.turismo p {
+    color: rgb(11, 154, 11);
+    font-size: 24px;
+}
+.turismo b {
+    color: rgba(47, 35, 209, 0.721);
+    margin-left: 30px;
+    font-size: 34px;
+}
+.turismo p b{
+    transition: transform 0.3s ease;
+}
+.turismo p b:hover {
+    transform: scale(1.1);
+    color: rgba(35, 125, 209, 0.921);
+}
+.rodape a {
+    margin-left: 50px;
+    text-decoration: none;
+    background-color: rgba(16, 30, 184, 0.2);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.rodape a:hover {
+    transform: scale(1.05);
+    background-color: rgba(16, 30, 184, 0.7);
+    color: rgb(255, 255, 255);
+}
+.copy p {
+    margin-left: 750px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100vh;
+}
+
